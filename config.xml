@@ -7,6 +7,30 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
+	
+    <plugin name="cordova-plugin-battery-status"/>
+	<plugin name="cordova-plugin-device"/>
+	<plugin name="cordova-plugin-file"/>
+	<plugin name="cordova-plugin-network-information"/>
+	<plugin name="cordova-plugin-geolocation"/>
+	<plugin name="cordova-plugin-inappbrowser"/>
+	<plugin name="cordova-plugin-whitelist"/>
+	<plugin name="https://github.com/davidefavia/cordova-plugin-in-app-youtube"/>
+    <plugin name="cordova-plugin-camera"/>
+	<plugin name="cordova-plugin-media-capture"/>
+	<plugin name="cordova-plugin-console"/>
+	<plugin name="cordova-plugin-contacts"/>
+	<plugin name="cordova-plugin-device-motion"/>
+	<plugin name="cordova-plugin-device-orientation"/>
+	<plugin name="cordova-plugin-dialogs"/>
+	<plugin name="cordova-plugin-file"/>
+	<plugin name="cordova-plugin-file-transfer"/>
+	<plugin name="cordova-plugin-globalization"/>
+	<plugin name="cordova-plugin-media"/>
+	<plugin name="cordova-plugin-splashscreen"/>
+	<plugin name="cordova-plugin-globalization"/>
+    <plugin name="cordova-plugin-vibration"/>
+	
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
@@ -22,24 +46,7 @@
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
-    <gap:plugin name="org.apache.cordova.battery-status" />
-    <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.media-capture" />
-    <gap:plugin name="org.apache.cordova.console" />
-    <gap:plugin name="org.apache.cordova.contacts" />
-    <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.device-motion" />
-    <gap:plugin name="org.apache.cordova.device-orientation" />
-    <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.file" />
-    <gap:plugin name="org.apache.cordova.file-transfer" />
-    <gap:plugin name="org.apache.cordova.geolocation" />
-    <gap:plugin name="org.apache.cordova.globalization" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-    <gap:plugin name="org.apache.cordova.media" />
-    <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:plugin name="org.apache.cordova.vibration" />
+
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
